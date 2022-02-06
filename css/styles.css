@@ -1,0 +1,72 @@
+/* background: #757575; */
+
+/* background: #212121;  */
+
+/*  #000000 */
+
+/* background: #FFFFFF;  */
+
+/*   #F5F4FA  */
+
+/* background: #FFFFFF99; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+span {
+  color: var(--accent-color);
+}
+logo {
+  color: #000000;
+}
+
+.nav .link {
+  color: var(--accent-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: #000000;
+}
+
+.link {
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+}
+/*  Section  */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Button  */
+
+.button-hero {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
