@@ -74,15 +74,6 @@ button {
   color: var(--accent-color);
 }
 
-.link-current {
-  color: var(--title-text-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-}
-
 .link {
   color: var(--primary-text-color);
   font-style: normal;
@@ -188,4 +179,17 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+
+
+
+/*  why??????
+.link-current {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
 }
