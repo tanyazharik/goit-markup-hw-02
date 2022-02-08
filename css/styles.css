@@ -180,6 +180,10 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.secondary-link:hover,
+.secondary-link:focus {
+  color: var(--accent-color);
+}
 
 
 
