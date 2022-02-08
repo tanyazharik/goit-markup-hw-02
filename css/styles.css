@@ -61,7 +61,7 @@ button {
   letter-spacing: 0.03em;
 }
 .nav .link {
-  color: var(--accent-color);
+  color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -71,19 +71,28 @@ button {
 
 .nav .link:hover,
 .nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link-current {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 
 .link {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
 }
-
 .link:hover,
 .link:focus {
-  color: var(--accent-color);
-}
-
-.nav .link.current {
   color: var(--accent-color);
 }
 
