@@ -14,31 +14,64 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --title: #ffffff;
 }
 
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  font-family: inherit;
 }
 
 .list {
   list-style: none;
 }
 
-span {
+.primary-logo {
   color: var(--accent-color);
-}
-logo {
-  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
+.secondary-logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.third-logo {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 .nav .link {
   color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 
 .nav .link:hover,
 .nav .link:focus {
-  color: #000000;
+  color: var(--title-text-color);
 }
 
 .link {
@@ -58,15 +91,92 @@ logo {
 
 .hero-title {
   color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
 }
 /*  Section  */
-.section-title {
+.section-item {
   color: var(--title-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 /* Button  */
 
-.button-hero {
+.button-hero:hover {
   color: #ffffff;
   background-color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.list-button > button:hover {
+  color: #ffffff;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.section-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.section-person {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.text-person {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.address {
+  color: var(--title);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.secondary-link {
+  color: #ffffff99;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
