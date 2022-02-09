@@ -15,6 +15,9 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --title: #ffffff;
+
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
 }
 
 body {
@@ -23,6 +26,21 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header {
+  background-color: var(--title);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.section-team {
+  background-color: #f5f4fa;
+}
+
+.primary-section {
+  background-color: #e5e5e5;
+}
 .button-hero,
 .button-project {
   cursor: pointer;
@@ -38,16 +56,16 @@ button {
 
 .primary-logo {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing; 0.03em;
 }
 
 .secondary-logo {
   color: #000000;
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -55,8 +73,8 @@ button {
 }
 
 .third-logo {
-  color: #ffffff;
-  font-family: Raleway, sans-serif;
+  color: var(--title);
+  font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -90,7 +108,7 @@ button {
 .link-current:focus {
   color: var(--accent-color);
 }
-.link-current {
+.link-current .link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -100,7 +118,7 @@ button {
 /* Hero */
 
 .hero-title {
-  color: #ffffff;
+  color: var(--title);
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
@@ -120,6 +138,7 @@ button {
 }
 .button-project {
   color: var(--title-text-color);
+  background: #f5f4fa;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
@@ -148,16 +167,19 @@ button {
 /* Button  */
 
 .button-hero:hover {
-  color: #ffffff;
-  background-color: var(--accent-color);
+  color: var(--title);
+  background-color: #188ce8;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
-
+.button-hero {
+  color: var(--title);
+  background-color: var(--accent-color);
+}
 .list-button > button:hover {
-  color: #ffffff;
+  color: var(--title);
 }
 
 .text {
@@ -210,3 +232,14 @@ button {
 .secondary-link:focus {
   color: var(--accent-color);
 }
+
+.footer {
+  background-color: #2f303a;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+
