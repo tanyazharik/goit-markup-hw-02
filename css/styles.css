@@ -129,6 +129,11 @@ button {
 }
 /*  Section  */
 
+
+  ul {
+    list-style: none;
+}
+
 .section-item {
   color: var(--title-text-color);
   font-size: 14px;
